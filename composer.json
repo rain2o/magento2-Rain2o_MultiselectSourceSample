@@ -1,0 +1,17 @@
+{
+    "name": "rain2o/multiselect-source-sample",
+    "description": "Sample module for providing a custom multiselect source model.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "require": {
+        "php": "~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Rain2o\\MultiselectSourceSample\\": ""
+        }
+    }
+}
